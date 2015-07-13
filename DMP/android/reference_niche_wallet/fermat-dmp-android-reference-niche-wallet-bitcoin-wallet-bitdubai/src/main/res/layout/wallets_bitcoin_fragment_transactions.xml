@@ -1,0 +1,17 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbf7ed"
+    android:id="@+id/swipeRefreshLayout">
+
+    <ListView
+        android:id="@+id/transactionlist"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="0.14"
+        android:headerDividersEnabled="false"
+        android:divider="#00000000">
+    </ListView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
